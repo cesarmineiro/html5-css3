@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/aboboraIco.png" type="image/x-icon">
+    <title>Imagens flexiveis</title>
+</head>
+<body>
+    <h1> Imagem Flexivel</h1>
+    <p> Você está vendo a imagem completa?<br>Experimente aumentar ou diminuir sua janela, <br>
+    para melhorar sua experiência.</p>
+  
+    <picture>
+         <source media="(max-width: 450px)" srcset="imagens/tubarao200.png" type="image/png">
+        <source media="(max-width: 700px)" srcset="imagens/tubarao400.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/tubarao650.png" type="image/png">
+       <img src="imagens/tubarao1000.png" alt="imagem flexivel">
+    </picture>
+</body>
+
+</html>
